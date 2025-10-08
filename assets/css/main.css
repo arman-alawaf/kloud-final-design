@@ -39,7 +39,6 @@ Version: 1.0.0
   --color-gradient-2: linear-gradient(180deg, rgba(0, 0, 0, 0.31) 0%, rgba(0, 0, 0, 0.78) 100%);
   ---box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.04);
 }
-
 .theme-btn {
   background-color: var(--theme);
   font-weight: 700;
@@ -1380,7 +1379,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 470px) {
   .header-1 .container-fluid {
-    padding: 0 15px;
+    padding: 15px;
   }
 }
 @media (max-width: 1199px) {
@@ -2476,7 +2475,7 @@ input.main-search-input::placeholder {
   z-index: -2;
   background-size: cover;
   transform: scale(1);
-  transition: all 8s ease-out 0s;
+  transition: all 3s ease-out 0s;
 }
 .hero-1 .hero-image::before {
   position: absolute;
@@ -3536,7 +3535,7 @@ input.main-search-input::placeholder {
   padding: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   z-index: 9;
   margin-top: -90px;
@@ -11411,4 +11410,15 @@ p.sticky-label {
 }
 .footer-bottom-4 p a {
   color: var(--theme);
+}
+
+
+/* ARMAN */
+
+.hero-sub-color{
+  color: var(--theme2) !important;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
 }
